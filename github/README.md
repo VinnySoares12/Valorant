@@ -1,11 +1,9 @@
 ![preview](./)
 
-> Trilha Explorer
-
-Projeto construído do evento Next Level Week da Rocketseat.
 
 
-[ 🔗 Clique aqui para acessar](https://vinnysoares12project.netlify.app)
+
+[ 🔗 Clique aqui para acessar](https://cosmic-boba-0cf819.netlify.app/)
 
 
 
