@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --fc-text: hsla(0, 0%, 100%, 1);
+  --fc-paragraph: hsla(355, 100%, 64%, 1);
+}
+
+body {
+  background-image: url(./assets/fon.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+
+  font-size: 1.6rem;
+  font-family: "Open sans", sans-serif;
+
+  color: var(--fc-text);
+
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 40rem;
+
+  margin: 4.1rem;
+}
+
+header h1 {
+  font-style: bold;
+}
+
+.logo-valorant,
+.share-icon {
+  cursor: pointer;
+}
+
+/* Main */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: calc(100vh-86px);
+}
+
+.title-valorant {
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 7.6rem;
+  text-transform: uppercase;
+
+  margin-bottom: 5rem;
+  margin-left: 5rem;
+
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #ffffff;
+}
+
+section .image-group {
+  display: flex;
+  gap: 2.8rem;
+
+  width: 3rem;
+
+  margin-left: 5.9rem;
+}
+
+.image {
+  position: relative;
+}
+
+.image::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 170px;
+  height: 170px;
+  background-image: url(./assets/stroke.svg);
+  z-index: -1;
+  top: -10px;
+  left: -10px;
+}
+
+.image img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+section p {
+  text-align: center;
+  margin-top: 1.2rem;
+
+  color: var(--fc-paragraph);
+
+  font-weight: 700;
+
+  letter-spacing: 0.1em;
+}
+
+footer {
+  display: flex;
+  gap: 1.6rem;
+  margin-left: 8rem;
+  margin-top: -29px;
+}
+
+footer a:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  
+}
+
+/* Animações */
+
+header {
+  animation: fromTop 0.7s 0.2s backwards;
+}
+
+main {
+  animation: fromLeft 0.9s backwards;
+}
+
+footer {
+  animation: fromBottom 0.7s backwards;
+}
+
+.phoenix {
+  animation:  fromRight 0.7s backwards;
+}
+
+@keyframes fromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-45px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-80px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fromRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
