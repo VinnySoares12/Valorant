@@ -7,7 +7,7 @@ Desafio da Codelândia, feito para prática e estudos !!!
 
 
 
-[ 🔗 Clique aqui para acessar](https://cosmic-boba-0cf819.netlify.app/)
+[ 🔗 Clique aqui para acessar](https://valorantpage.netlify.app/)
 
 
 
