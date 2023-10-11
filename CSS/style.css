@@ -13,7 +13,7 @@
 }
 
 body {
-  background-image: url(./assets/fon.png);
+  background-image: url(../assets/fon.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -86,7 +86,7 @@ section .image-group {
   display: block;
   width: 17rem;
   height: 17rem;
-  background-image: url(./assets/stroke.svg);
+  background-image: url(../assets/stroke.svg);
   z-index: -1;
   top: -1rem;
   left: -1rem;
