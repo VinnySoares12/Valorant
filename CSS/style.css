@@ -98,6 +98,11 @@ section .image-group {
   cursor: pointer;
 }
 
+.phoenix{
+  height: 100vh;
+
+}
+
 section p {
   text-align: center;
   margin-top: 1.2rem;
@@ -139,7 +144,7 @@ footer {
 }
 
 .phoenix {
-  animation: fromRight 0.7s backwards;
+  animation: fromRight 0.5s backwards;
 }
 
 @keyframes fromTop {
